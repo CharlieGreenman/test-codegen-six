@@ -2,6 +2,7 @@
   "name": "test-codegen-six",
   "version": "0.0.0",
   "license": "MIT",
+  
   "scripts": {
     "ng": "nx",
     "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
@@ -13,7 +14,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "16.2.1",
+    "@angular/animations": "16.2.2",
     "@angular/common": "16.2.2",
     "@angular/compiler": "16.2.2",
     "@angular/core": "16.2.2",
@@ -24,9 +25,7 @@
     "rxjs": "7.8.1",
     "tslib": "^2.5.3",
     "zone.js": "0.13.1",
-    "@nx/angular": "16.7.4",
-    "@angular/material": "16.2.1",
-    "@angular/cdk": "16.2.1"
+    "@nx/angular": "16.7.4"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "16.2.0",
